@@ -69,13 +69,5 @@ public class AirportStepdefinition {
     public void user_clicks_on_select_car_button() throws WebDriverHelperException {
     	home.ClickOnSearchCar();
     }
-    
-    @Then("Select the first car")
-    public void select_the_first_car() throws WebDriverHelperException {
-    	 home.SelectFirstCar();
-    }
-    @Then("validate car in car details")
-    public void validate_car_in_car_details() throws WebDriverHelperException {
-    	home.ValidateCarDetails();
-    }
+ 
 }

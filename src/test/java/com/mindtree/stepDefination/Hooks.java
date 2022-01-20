@@ -45,6 +45,7 @@ public class Hooks extends WebDriverManager {
 		log.info("Driver closed");
 		log.info("Scenario completed");
 		driver.close();
+		driver.quit();
 	}
 
 }

@@ -104,30 +104,5 @@ public class Airportpage {
 		}
 	}
 
-	public void SelectFirstCar() {
-		try {
-			helper.applicationWait(5000);
-			helper.actionClick(AirportPageUI.firstcar);
-			log.debug("First Car Selected in the result page");
-		} catch (Exception e) {
-			e.printStackTrace();
-			log.debug("Cannot Select Car ");
-		}
-	}
-
-	public void ValidateCarDetails() {
-		try {
-			helper.applicationWait(5000);
-			String Expectedprice = "921";
-			String Actualprice = helper.getText(AirportPageUI.price);
-			if (Actualprice.contains(Expectedprice)) {
-				log.info("Price Validated : " + Actualprice);
-			} else {
-				log.info("Price Validation Failed : " + Actualprice);
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-			log.debug("Cannot Validate Car Details");
-		}
-	}
+	
 }

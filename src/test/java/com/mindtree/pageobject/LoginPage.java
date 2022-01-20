@@ -20,11 +20,11 @@ public class LoginPage {
 		helper.clickButton(LoginUI.sign);
 		log = loggerUtil.createLog("Sign in icon is clicked");
 		helper.clickButton(LoginUI.newemail);
-		helper.sendText(LoginUI.newemail, "kiru50173@gmail.com");
+		helper.sendText(LoginUI.newemail, "teja2401reddy@gmail.com");
 		helper.enterKey(LoginUI.newemail);
 		log= loggerUtil.createLog("Valid Emailid is entered");
 		helper.clickButton(LoginUI.newpass);
-		helper.sendText(LoginUI.newpass,"Kiran1245");
+		helper.sendText(LoginUI.newpass,"B1a2l3a4");
 		helper.enterKey(LoginUI.newpass);
 		log = loggerUtil.createLog("Valid Email id is entered");
 		helper.clickButton(LoginUI.newlog);
