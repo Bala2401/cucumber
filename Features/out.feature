@@ -12,7 +12,7 @@ Feature: Outsation path
     Then pickup time <time>
     Then click on Selectcar button
     Then Select the firstcar 
-    And  validate car booking details
+
 
 
     Examples: 
@@ -32,7 +32,6 @@ Feature: Outsation path
     Then selects pickup time <time>
     Then user click Select car button
     Then Selects the first car 
-    And  validate car type under booking details
 
 
     Examples: 

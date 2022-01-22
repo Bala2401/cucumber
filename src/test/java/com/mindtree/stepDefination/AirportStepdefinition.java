@@ -64,10 +64,5 @@ public class AirportStepdefinition {
 	{
 		home.SelectPickuptime(string);
 	}
-    
-    @Then("user clicks on Select car button")
-    public void user_clicks_on_select_car_button() throws WebDriverHelperException {
-    	home.ClickOnSearchCar();
-    }
  
 }

@@ -10,9 +10,7 @@ Feature: Airport
     Then User enters Drop address or pickup address <Address>
     Then User selects pickup date <pickupdate> <monthyear>
     Then User selects pickup time <time>
-    Then user clicks on Select car button
-    Then Select the first car 
-    Then  validate car in car details
+
 
 
     Examples: 

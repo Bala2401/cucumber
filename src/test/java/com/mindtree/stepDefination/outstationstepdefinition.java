@@ -68,12 +68,6 @@ public class outstationstepdefinition {
 	public void select_the_firstcar() throws InterruptedException, WebDriverHelperException {
 	    out.firstcarselect();
 	}
-
-	@And("validate car booking details")
-	public void validate_car_booking_details() throws WebDriverHelperException {
-	    out.validate();
-	}
-
 	//roundtrip
 			
 			   
